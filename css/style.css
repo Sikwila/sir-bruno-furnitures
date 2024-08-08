@@ -1241,6 +1241,10 @@ align-items: center;
 @media (min-width:340px) {
   width: 320px;
 }
+
+@media (min-width:601px) {
+  width: 400px;
+}
 }
 
 
@@ -1280,76 +1284,19 @@ align-items: center;
   text-align: center;
   color: white;
   font-size: 70px;
-  @media (min-width:601px) {
-    display: none;
-  }
 }
 
-.Testimonials1a{
-  @media (min-width:601px){
-    background-color:#1F2630;
-    width: 470px;
-    box-shadow: 4px 4px 4px gray;
-  height:320px ;
 
-}
-  @media (max-width:600px){
-    display: none;
-  }
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Testimonials1a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.big-screen-slider{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Testimonials1b{
-  @media (min-width:601px)
-  {background-color: #1F2630;
-  height:270px;
-  box-shadow: 4px 4px 4px gray;
-  }
-  @media (max-width:600px) {
-    display: none;
-  }
-}
-
-.Testimonials1{
-  @media (min-width:601px)
-  {background-color: #1F2630;
-  box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.384);
-  /* border: 15px solid #1F2630; */
-  }
-  @media (max-width:600px) {
-    display: none;
-  }
-
-  @media (min-width:601px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap:1.5rem;
-  }
-}
 
 .Testimonials-text {
   color: #ffffff;
   font-size: 15px;
   display: flex;
   flex-direction: column;
- 
   gap:0rem;
+  @media (min-width:601px) {
+    font-size:18px;
+  }
 }
 
 .client-info {
@@ -1367,11 +1314,7 @@ background-size: cover;
 background-position-x: center;
 
 
-@media (min-width:601px) {
-  width: 150px;
-  height:250px;
-  border-radius:0%;
-}
+
 }
 
 .client-name {
@@ -1401,9 +1344,6 @@ width:60px;
   top: 50%;
 margin-top: 50px;
   transform: translateY(-50%);
-  @media (min-width:601px) {
-    position: absolute;
-  }
 
  
 
@@ -1411,10 +1351,7 @@ margin-top: 50px;
 
 .prev {
   left: 10px;
-  @media (min-width:601px){
-
-   margin-left:-39px;
-    }
+ 
 }
 
 
@@ -1427,16 +1364,14 @@ left:60%;
 }
 
 .carousel-btns{
-  @media (max-width:600px){
+
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
     margin-left:37px;
     gap:9rem;
-  }
-
-
+  
 }
 
 .big-screen{
@@ -1445,11 +1380,11 @@ left:60%;
   }
 }
 
-.small-screen{
+/* .small-screen{
   @media (min-width:601px) {
     display: none;
   }
-}
+} */
 
 /* contact section */
 
