@@ -1,17 +1,3 @@
-//Light And Dark Mode Switch
-document.getElementById("theme_switcher").addEventListener("click" ,function(){
-  document.body.classList.toggle("dark");
-});
-
-
-window.addEventListener("scroll", reveal);
-
-// products section
-
-// Carousel
-
-// script.js
-
 document.addEventListener('DOMContentLoaded', function() {
   const prevButton = document.querySelector('.prev');
   const nextButton = document.querySelector('.next');
@@ -38,4 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
   showSlide(currentIndex); // Initialize carousel
 });
-
