@@ -1496,9 +1496,7 @@ margin-left: -120px;
 
 }
 
-.contact-logo{
-  color: #ffffff;
-}
+
 
 .contact-nav{
   display: flex;
@@ -1517,9 +1515,7 @@ margin-left: -120px;
   flex-direction: column;
 }
 
-.social-media-links p{
-  color: white;
-}
+
 
 .phone p,.phone a{
   color: white;
@@ -1558,7 +1554,7 @@ margin-left: -120px;
   color: #ffffff;
 }
 
-.Get-the-app p{
+.contact-logo{
   color: white;
 }
 
@@ -1621,7 +1617,39 @@ margin-left: -120px;
 }
 
 
+.links-footer2{
+display: flex;
+justify-content: space-between;
+gap: 4rem;
+}
 
 
+.carousel-btns2{
+  @media (max-width:600px) {
+    display: none;
+  }
+}
 
+.paragraph,.contact-logo{
+font-size:25px;
+color: #9c8e8c;
+font-style: italic;
+  font-weight: bolder;
+}
 
+.phone-main a{
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.phone-main a:hover{
+  color: #7c6764;
+  text-decoration:underline;
+ scale: 1.1;
+}
+
+.company-description{
+  color: #ffffff;
+  margin-top: 0px;
+}
