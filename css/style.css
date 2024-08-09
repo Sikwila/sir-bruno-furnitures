@@ -1243,7 +1243,7 @@ align-items: center;
 }
 
 @media (min-width:601px) {
-  width: 400px;
+  width:100%;
 }
 }
 
@@ -1274,9 +1274,37 @@ align-items: center;
 .Testimonials-heading {
   color: white;
   font-size: 30px;
-  /* margin-bottom: 30px; */
+/* @media (min-width:1000px) {
+  display: none;
+} */
 }
 
+.p-1{
+ @media (min-width:1000px) {
+  display: none;
+}  
+}
+
+.client-Testimonial{
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-scrn-testimonials{
+  display: flex;
+  flex-direction:row; 
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+
+.p-2{
+  display: flex;
+gap: 2rem;
+  @media (max-width:999px) {
+    display: none;
+  }
+}
 .quotes {
   width: 50px;
   height: 50px;
@@ -1286,7 +1314,12 @@ align-items: center;
   font-size: 70px;
 }
 
+.Testimonials-group{
+  display: flex;
+  flex-direction: row;
+gap: 3rem;
 
+}
 
 .Testimonials-text {
   color: #ffffff;
@@ -1295,15 +1328,17 @@ align-items: center;
   flex-direction: column;
   gap:0rem;
   @media (min-width:601px) {
-    font-size:18px;
+    font-size:17px;
   }
 }
 
-.client-info {
+.client-info,.client-info2 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
+
+
 
 .client-img {
   width: 50px;
@@ -1317,13 +1352,23 @@ background-position-x: center;
 
 }
 
-.client-name {
+.client-name,.p-2-heading {
   color: #ffffff;
 }
+
+.p-2-heading{
+  font-size: 35px;
+  text-align: center;
+  /* margin-bottom: -80px; */
+}
+
 
 .client-name1 {
   font-weight: bold;
   font-size: 15px;
+  @media (min-width:601px) {
+    font-size:17px;
+  }
 }
 
 .client {
@@ -1345,22 +1390,25 @@ width:60px;
 margin-top: 50px;
   transform: translateY(-50%);
 
- 
+ @media (min-width:1000px) {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+ }
 
 }
 
 .prev {
   left: 10px;
- 
+  /* @media (min-width:1000px) {
+
+   } */
 }
 
 
 .next {
   right: 10px;
-  /* @media (min-width:601px){
-left:60%;
-    margin-left:90px;
-     } */
+
 }
 
 .carousel-btns{
@@ -1379,20 +1427,6 @@ left:60%;
     display: none;
   }
 }
-
-/* .small-screen{
-  @media (min-width:601px) {
-    display: none;
-  }
-} */
-
-/* contact section */
-
-/* .footer-nav{
-  display: flex;
-  flex-direction: column;
-} */
-
 
 #Contact{
   width: 100%;
